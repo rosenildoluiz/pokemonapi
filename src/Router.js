@@ -4,19 +4,27 @@ import axios from 'axios';
 import Pokedex from 'pokedex-promise-v2';
 import { useEffect, useState } from 'react';
 import Pokemon from './componentes/pagina01';
-import {  BrowserRouter,
+import {  BrowserRouter as Router,
   Switch, Link,
   Route,
   Routes } from 'react-router-dom';
 import Main from './componentes/Main'
-import Router from './Router';
+import Pagina02 from './componentes/pagina02';
 
-export default function App() {
-  const [ pokemons, setPokemons] = useState([]);
+export default function RouteMain() {
 
   return (
 
-<Router />
+<Router>
+<Switch>
+           <Route component={Main}  path='/' exact/>
+           <Route component={Pagina02} path='/pokemon/:id' />
+           
+</Switch>
+
+
+
+</Router>
  
       
 
