@@ -38,6 +38,32 @@ return (
               <br/>
               <br/>
               <br/>
+
+
+              <h1>Tipo</h1>
+              <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Tipo</th>
+
+    </tr>
+  </thead>
+   {
+                pokemonid.types.map((event, counter) => {
+                  return (
+                    <tbody>
+                    <tr>
+                      <th scope="row">{counter}</th>
+
+                      <td>{event.type.name}</td>
+                    </tr>
+
+                  </tbody>
+                  )
+                })
+              }
+</table>
               <h1>Habilidades</h1>
               <table class="table">
   <thead>
@@ -86,6 +112,9 @@ return (
                 })
               }
 </table>
+
+
+
            
         
             </div>

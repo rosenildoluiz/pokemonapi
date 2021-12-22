@@ -1,13 +1,9 @@
 
 import './App.css';
-import axios from 'axios';
-import Pokedex from 'pokedex-promise-v2';
-import { useEffect, useState } from 'react';
-import Pokemon from './componentes/pagina01';
 import {  BrowserRouter as Router,
-  Switch, Link,
+  Switch,
   Route,
-  Routes } from 'react-router-dom';
+   } from 'react-router-dom';
 import Main from './componentes/Main'
 import Pagina02 from './componentes/pagina02';
 
