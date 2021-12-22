@@ -18,6 +18,13 @@ a:link{
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 0 1px 3 px rgba(0, 0, 0.12),0 1px 2px rgb(0, 0,0.24);
+  transition: all 0.5s cubic-bezier(0.25,0.8,0.25,1);
+  
+}
+.pokemonComponent:hover{
+  box-shadow: 0 14px 28px rgb(0, 0, 0.25), 0 5px 5px rgb(0, 0, 0.22);
+
 }
 
 .title{
