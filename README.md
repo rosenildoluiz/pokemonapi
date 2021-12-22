@@ -4,4 +4,4 @@ Para iniciar, digite npm start em seu console
 
 
 
-<img src='https://github.com/rosenildoluiz/pokemonapi/blob/master/public/imageReadme?raw=true' />
+<img src='https://github.com/rosenildoluiz/pokemonapi/blob/master/public/imageReadme.png?raw=true' />
